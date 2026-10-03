@@ -81,32 +81,20 @@
       <!-- ============ Hero ============ -->
       <section class="hero" id="start" data-parallax-scope>
         <div class="hero__bg" aria-hidden="true">
+          <div class="hero__grid" data-speed="0.15"></div>
           <div class="orb orb--blue" data-speed="0.25"><span></span></div>
-          <div class="orb orb--green" data-speed="-0.2"><span></span></div>
-          <div class="orb orb--mix" data-speed="0.12"><span></span></div>
-          <div class="bubble bubble--1" data-speed="0.45"><span></span></div>
-          <div class="bubble bubble--2" data-speed="0.3"><span></span></div>
-          <div class="bubble bubble--3" data-speed="0.6"><span></span></div>
-        </div>
-
-        <div class="hero__chips" aria-hidden="true">
-          <div class="chip chip--1" data-speed="0.35"><span>🪟 Streifenfreie Fenster</span></div>
-          <div class="chip chip--2" data-speed="0.2"><span>🏘 Fachgerechte Flächenreinigung</span></div>
-          <div class="chip chip--3" data-speed="0.5"><span>🌳 Hecken Pflege &amp; Formschnitt</span></div>
+          <div class="orb orb--green" data-speed="-0.15"><span></span></div>
         </div>
 
         <div class="hero__content container">
-          <p class="eyebrow-pill" data-reveal>
-            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>
-            Bottrop &amp; Umgebung
-          </p>
+          <p class="eyebrow" data-reveal>AS Reinigungsservice · Bottrop</p>
           <h1 class="hero__title" data-reveal>
-            Glasklar.<br />
-            <span class="text-gradient">Streifenfrei.</span>
+            Klare Sicht.<br />
+            <span class="hero__title-accent">Saubere Arbeit.</span>
           </h1>
           <p class="hero__lead" data-reveal>
-            Professionelle Fenster- und Glasreinigung, fachgerechte Flächenreinigung und präzise Heckenpflege –
-            für Privat- und Gewerbekunden in Bottrop und Umgebung.
+            Professionelle Fenster- und Glasreinigung, fachgerechte Flächenreinigung sowie Heckenpflege und
+            Formschnitt – für Privat- und Gewerbekunden in Bottrop und Umgebung.
           </p>
           <div class="hero__actions" data-reveal>
             <a class="btn btn--primary btn--lg" data-phone-link href="#">
@@ -114,15 +102,17 @@
               <span data-phone-text>0155 62644577</span>
             </a>
             <a class="btn btn--ghost btn--lg" href="#leistungen">
-              Leistungen entdecken
+              Leistungen ansehen
               <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
             </a>
           </div>
-          <a class="hero__rating" href="#bewertungen" data-reveal>
-            <span class="stars" aria-hidden="true">★★★★★</span>
-            <strong>5,0</strong>
-            <span>· 18 Google-Rezensionen</span>
-          </a>
+          <ul class="trust" data-reveal>
+            <li>
+              <a href="#bewertungen"><span class="stars" aria-hidden="true">★★★★★</span> <strong>5,0</strong> bei Google</a>
+            </li>
+            <li>Privat- &amp; Gewerbekunden</li>
+            <li>Bottrop &amp; Umgebung</li>
+          </ul>
         </div>
 
         <a class="scroll-hint" href="#ueber" aria-label="Weiter scrollen"><span></span></a>
@@ -168,8 +158,8 @@
         <div class="container">
           <header class="section__head" data-reveal>
             <p class="eyebrow">Leistungen</p>
-            <h2 class="section__title">Alles, was glänzen soll.</h2>
-            <p class="section__lead">Vom Wohnzimmerfenster bis zur PV-Anlage, vom Schaufenster bis zur Hecke – für Privat- und Gewerbekunden.</p>
+            <h2 class="section__title">Sauberkeit, auf die Verlass ist.</h2>
+            <p class="section__lead">Von der Fensterfront bis zur PV-Anlage, vom Schaufenster bis zur Hecke – sorgfältig ausgeführt für Privat- und Gewerbekunden.</p>
           </header>
 
           <div class="bento" data-reveal-group>
@@ -177,12 +167,14 @@
               <div class="card__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="2.5"/><path d="M12 3.5v17M3.5 12h17"/></svg></div>
               <h3>Fenster- &amp; Glasreinigung</h3>
               <p>Streifenfreie Ergebnisse auf allen Glasflächen – gründlich, sorgfältig und zuverlässig. Für Wohnhaus, Büro und Ladenlokal.</p>
+              <ul class="card__list">
+                <li>Fenster &amp; Glastüren</li>
+                <li>Wintergärten &amp; Überdachungen</li>
+                <li>Schaufenster &amp; Glasfronten</li>
+              </ul>
               <div class="price-tag">
                 <span>Fensterreinigung</span>
                 <strong>ab 6,50 €</strong>
-              </div>
-              <div class="card__window" aria-hidden="true">
-                <div class="mini-window"><span></span><span></span><span></span><span></span><i></i></div>
               </div>
             </article>
 
@@ -239,7 +231,7 @@
             <p class="eyebrow eyebrow--light">Vorher. Nachher.</p>
             <div class="clean__titles">
               <h2 class="clean__title clean__title--before">Grauschleier, Pollen, Regenflecken.</h2>
-              <h2 class="clean__title clean__title--after">Einfach <span class="text-gradient">durchblicken.</span></h2>
+              <h2 class="clean__title clean__title--after">Wieder klare Sicht.</h2>
             </div>
           </div>
 
@@ -249,59 +241,35 @@
                 <svg class="window__scene" viewBox="0 0 1000 625" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
                   <defs>
                     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-                      <stop offset="0" stop-color="#5fbde3" />
-                      <stop offset=".6" stop-color="#bde6f6" />
-                      <stop offset="1" stop-color="#eaf8fd" />
+                      <stop offset="0" stop-color="#2f7fb3" />
+                      <stop offset=".45" stop-color="#8cc4e3" />
+                      <stop offset=".72" stop-color="#d9e9ef" />
+                      <stop offset="1" stop-color="#efe6d6" />
                     </linearGradient>
-                    <radialGradient id="sun">
-                      <stop offset="0" stop-color="#fffbe8" />
-                      <stop offset=".35" stop-color="#fff3c4" stop-opacity=".85" />
-                      <stop offset="1" stop-color="#fff3c4" stop-opacity="0" />
+                    <radialGradient id="sun" cx="0.72" cy="0.38" r="0.45">
+                      <stop offset="0" stop-color="#fffaf0" stop-opacity=".95" />
+                      <stop offset=".25" stop-color="#fff2d8" stop-opacity=".5" />
+                      <stop offset="1" stop-color="#fff2d8" stop-opacity="0" />
                     </radialGradient>
-                    <linearGradient id="hillFar" x1="0" y1="0" x2="0" y2="1">
-                      <stop offset="0" stop-color="#b8e29a" />
-                      <stop offset="1" stop-color="#97cf6c" />
+                    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0" stop-color="#5d7d5a" />
+                      <stop offset="1" stop-color="#2e4630" />
                     </linearGradient>
-                    <linearGradient id="hillNear" x1="0" y1="0" x2="0" y2="1">
-                      <stop offset="0" stop-color="#8fd651" />
-                      <stop offset="1" stop-color="#68b92e" />
-                    </linearGradient>
-                    <linearGradient id="lawn" x1="0" y1="0" x2="0" y2="1">
-                      <stop offset="0" stop-color="#7ed23f" />
-                      <stop offset="1" stop-color="#55a227" />
-                    </linearGradient>
+                    <filter id="blurFar" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="2.5" /></filter>
+                    <filter id="blurNear" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="14" /></filter>
                   </defs>
                   <rect width="1000" height="625" fill="url(#sky)" />
-                  <circle cx="770" cy="150" r="190" fill="url(#sun)" />
-                  <circle cx="770" cy="150" r="46" fill="#fffdf3" />
-                  <g fill="#fff" opacity=".9">
-                    <ellipse cx="220" cy="135" rx="95" ry="24" />
-                    <ellipse cx="265" cy="115" rx="58" ry="30" />
-                    <ellipse cx="185" cy="122" rx="44" ry="22" />
-                    <ellipse cx="560" cy="80" rx="60" ry="14" />
-                    <ellipse cx="590" cy="68" rx="34" ry="18" />
-                  </g>
-                  <path d="M0 395C150 330 300 355 450 338s300-40 550 12v275H0z" fill="url(#hillFar)" />
-                  <!-- Tetraeder Bottrop -->
-                  <g fill="none" stroke="#4d7f94" stroke-width="3" stroke-linejoin="round" opacity=".55">
-                    <path d="M262 352 300 280l38 72zM300 280l8 66M262 352l46-6 30 6" />
-                  </g>
-                  <path d="M0 470c200-60 380-20 560-40s300-30 440 10v185H0z" fill="url(#hillNear)" />
-                  <g>
-                    <rect x="128" y="440" width="8" height="50" fill="#5b4a3a" />
-                    <circle cx="118" cy="438" r="34" fill="#4d9a1c" />
-                    <circle cx="150" cy="422" r="28" fill="#5aae24" />
-                    <rect x="842" y="420" width="8" height="55" fill="#5b4a3a" />
-                    <circle cx="846" cy="405" r="40" fill="#4d9a1c" />
-                    <circle cx="872" cy="425" r="26" fill="#5aae24" />
-                    <rect x="660" y="445" width="6" height="35" fill="#5b4a3a" />
-                    <circle cx="663" cy="432" r="24" fill="#5aae24" />
-                  </g>
-                  <path d="M0 540c300-25 700-15 1000-5v90H0z" fill="url(#lawn)" />
-                  <rect x="-20" y="568" width="1040" height="90" rx="34" fill="#3f8a1e" />
-                  <g fill="#4d9a1c" opacity=".7">
-                    <circle cx="80" cy="585" r="10" /><circle cx="210" cy="580" r="12" /><circle cx="360" cy="588" r="9" />
-                    <circle cx="520" cy="579" r="11" /><circle cx="690" cy="586" r="10" /><circle cx="860" cy="581" r="12" />
+                  <rect width="1000" height="625" fill="url(#sun)" />
+                  <!-- unscharfe Silhouette in der Ferne -->
+                  <path filter="url(#blurFar)" fill="#7f97a6" opacity=".55"
+                    d="M0 452V430h40v-18h34v26h28v-40h22v-22h30v62h36v-30h44v14h30v-52h18v-16h26v68h40v-24h52v34h30v-60h24v-20h28v80h46v-36h38v18h34v-48h20v-14h30v62h40v-28h46v22h34v-42h26v52h38v-20h46v24H1000v22z" />
+                  <path fill="url(#ground)" d="M0 470c180-14 340-8 520-14s330-8 480 4V625H0z" />
+                  <!-- Bäume im Vordergrund, stark unscharf (Tiefenschärfe) -->
+                  <g filter="url(#blurNear)" fill="#24402a" opacity=".85">
+                    <ellipse cx="90" cy="470" rx="150" ry="120" />
+                    <ellipse cx="250" cy="520" rx="140" ry="80" />
+                    <ellipse cx="930" cy="455" rx="140" ry="150" />
+                    <ellipse cx="780" cy="540" rx="170" ry="80" />
                   </g>
                 </svg>
                 <div class="window__dirt" aria-hidden="true"></div>
@@ -313,7 +281,7 @@
                 </div>
               </div>
             </div>
-            <p class="clean__caption">Scrollen Sie – wir übernehmen den Rest.</p>
+            <p class="clean__caption">Streifenfreie Ergebnisse – innen wie außen.</p>
           </div>
         </div>
       </section>
@@ -336,30 +304,34 @@
           </div>
 
           <div class="hedge__art" aria-hidden="true">
-            <svg class="hedge__defs" width="0" height="0">
+            <svg class="hedge__plan" viewBox="0 0 560 420">
               <defs>
-                <pattern id="leaves" width="22" height="22" patternUnits="userSpaceOnUse">
-                  <rect width="22" height="22" fill="#4d9a1c" />
-                  <circle cx="5" cy="6" r="5" fill="#5fb127" />
-                  <circle cx="16" cy="4" r="4" fill="#6cc232" />
-                  <circle cx="12" cy="14" r="5.5" fill="#57a823" />
-                  <circle cx="3" cy="18" r="4" fill="#6cc232" />
-                  <circle cx="19" cy="17" r="4" fill="#5fb127" />
+                <pattern id="plan-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+                  <path d="M28 0H0v28" fill="none" stroke="rgba(255,255,255,.06)" stroke-width="1" />
                 </pattern>
               </defs>
+              <rect width="560" height="420" fill="url(#plan-grid)" />
+              <!-- Bodenlinie -->
+              <path d="M40 330h480" stroke="rgba(255,255,255,.35)" stroke-width="1.5" />
+              <!-- Vorher: unregelmäßige Kontur -->
+              <path class="hedge__before"
+                d="M96 330V158c4-22 18-30 30-34 6-22 30-30 46-22 12-20 40-24 56-12 16-18 44-16 58 0 18-14 44-10 56 6 20-8 42 2 50 20 22 0 38 18 36 40 14 10 18 26 12 44V330" />
+              <!-- Nachher: sauberer Formschnitt -->
+              <path class="hedge__after" pathLength="1" d="M120 330V166a14 14 0 0 1 14-14h292a14 14 0 0 1 14 14V330" />
+              <!-- Bemaßung -->
+              <g class="hedge__dim">
+                <path d="M120 372h320M120 364v16M440 364v16" />
+                <path d="M482 152v178M474 152h16M474 330h16" />
+              </g>
+              <text class="hedge__label" x="280" y="398" text-anchor="middle">FORMSCHNITT · GERADE KANTEN</text>
+              <text class="hedge__label" x="500" y="245" transform="rotate(90 500 245)" text-anchor="middle">HÖHE</text>
+              <g class="hedge__legend">
+                <path d="M40 40h28" class="hedge__before" />
+                <text x="78" y="44">Vorher</text>
+                <path d="M150 40h28" stroke="#7ed23f" stroke-width="2.5" />
+                <text x="188" y="44">Nachher</text>
+              </g>
             </svg>
-            <div class="topiary topiary--box" data-speed="0.08">
-              <svg viewBox="0 0 320 200"><rect x="10" y="20" width="300" height="170" rx="18" fill="url(#leaves)" /><rect x="10" y="20" width="300" height="170" rx="18" fill="none" stroke="#3f8a1e" stroke-width="4" /></svg>
-            </div>
-            <div class="topiary topiary--ball" data-speed="0.22">
-              <svg viewBox="0 0 160 260"><circle cx="80" cy="80" r="72" fill="url(#leaves)" stroke="#3f8a1e" stroke-width="4" /><rect x="74" y="150" width="12" height="60" rx="4" fill="#7a5a3c" /><path d="M40 205h80l-10 50H50z" fill="#2596be" /></svg>
-            </div>
-            <div class="topiary topiary--cone" data-speed="0.15">
-              <svg viewBox="0 0 140 280"><path d="M70 8 128 220H12z" fill="url(#leaves)" stroke="#3f8a1e" stroke-width="4" stroke-linejoin="round" /><rect x="64" y="218" width="12" height="20" fill="#7a5a3c" /><path d="M32 236h76l-8 40H40z" fill="#1d7ea1" /></svg>
-            </div>
-            <div class="leaf leaf--1" data-speed="0.6"></div>
-            <div class="leaf leaf--2" data-speed="0.4"></div>
-            <div class="leaf leaf--3" data-speed="0.75"></div>
           </div>
         </div>
       </section>
@@ -401,7 +373,7 @@
         <div class="container">
           <header class="section__head" data-reveal>
             <p class="eyebrow">Ablauf</p>
-            <h2 class="section__title">In vier Schritten zum Durchblick.</h2>
+            <h2 class="section__title">Klar strukturiert. Von Anfang an.</h2>
           </header>
           <ol class="steps">
             <li class="step" data-reveal>
@@ -558,8 +530,8 @@
       <section class="cta" data-parallax-scope data-nav-dark>
         <div class="cta__glow" data-speed="0.2" aria-hidden="true"></div>
         <div class="container cta__inner" data-reveal>
-          <h2>Bereit für den Durchblick?</h2>
-          <p>Ein Anruf genügt – wir kümmern uns um den Rest.</p>
+          <h2>Ihr Termin ist nur einen Anruf entfernt.</h2>
+          <p>Montag bis Samstag erreichbar – wir beraten Sie gern.</p>
           <a class="btn btn--light btn--lg" data-phone-link href="#">
             <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.5h3.2l1.6 4.2-2.1 1.3a11 11 0 0 0 5.3 5.3l1.3-2.1 4.2 1.6V17a2 2 0 0 1-2 2A15.5 15.5 0 0 1 3 5.5a2 2 0 0 1 2-2z"/></svg>
             <span data-phone-text>0155 62644577</span>

@@ -164,3 +164,23 @@ export function initSpotlight() {
     });
   });
 }
+
+// Hecken-Plan: saubere Formschnitt-Kontur zeichnet sich beim Hereinscrollen.
+export function initHedgeDraw() {
+  const section = document.querySelector('.hedge');
+  if (!section) return;
+  if (reducedMotion) {
+    section.classList.add('is-drawn');
+    return;
+  }
+  const io = new IntersectionObserver(
+    ([entry]) => {
+      if (entry.isIntersecting) {
+        section.classList.add('is-drawn');
+        io.disconnect();
+      }
+    },
+    { threshold: 0.35 }
+  );
+  io.observe(section);
+}

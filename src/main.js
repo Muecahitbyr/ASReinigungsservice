@@ -10,6 +10,7 @@ import {
   initProcessLine,
   initCounters,
   initSpotlight,
+  initHedgeDraw,
 } from './js/effects.js';
 import {
   renderOpeningHours,
@@ -33,5 +34,6 @@ initWindowScene();
 initProcessLine();
 initCounters();
 initSpotlight();
+initHedgeDraw();
 
 
